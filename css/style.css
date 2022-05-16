@@ -3,7 +3,6 @@ body {
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   color: #6c7279;
-  background-color: #000;
 }
 
 *,
@@ -26,13 +25,20 @@ body {
 /* Header
 =====================*/
 
-.header {}
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
 
 .header_inner {
   padding: 35px;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #515369;
+  align-items: center;
 }
 
 
@@ -40,16 +46,43 @@ body {
 =====================*/
 
 .nav {
+  display: flex;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .nav_link {
+  margin-left: 50px;
   color: #fff;
   text-decoration: none;
+  opacity: .75;
+  transition: opacity .1s linear;
+}
+
+.nav_link:first-child {
+  margin-left: 0;
 }
 
 .nav_link:hover {
-  text-decoration: underline;
+  opacity: 1;
 }
+
+/* Intro
+=====================*/
+.intro {
+  height: 750px;
+  background: #31344e url("../img/intro-bg.jpg") center no-repeat; background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
