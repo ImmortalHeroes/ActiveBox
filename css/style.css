@@ -3,12 +3,21 @@ body {
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   color: #6c7279;
+  background-color: #fff;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p{
+  margin: 0 0 10px;
 }
 
 
@@ -27,6 +36,8 @@ body {
 
 .header {
   width: 100%;
+  height: 100px;
+
   position: absolute;
   top: 0;
   left: 0;
@@ -72,9 +83,33 @@ body {
 =====================*/
 .intro {
   height: 750px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: #31344e url("../img/intro-bg.jpg") center no-repeat; background-size: cover;
 }
 
+.intro_inner{
+  width: 100%;
+  max-width: 970px;
+  margin: 0 auto;
+}
+.intro_title{
+  font-family: font-family: 'Open Sans', sans-serif;
+  font-size: 65px;
+  line-height: 1.1;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.intro_subtitle{
+  font-size: 22px;
+  color: #fff;
+  line-height: 1.5;
+}
 
 
 
