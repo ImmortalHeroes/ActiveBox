@@ -94,21 +94,24 @@ p{
   width: 100%;
   max-width: 970px;
   margin: 0 auto;
+  text-align: center;
 }
 .intro_title{
+  margin: 0 0 30px;
   font-family: font-family: 'Open Sans', sans-serif;
   font-size: 65px;
   line-height: 1.1;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;
-  text-align: center;
+
 }
 
 .intro_subtitle{
   font-size: 22px;
   color: #fff;
   line-height: 1.5;
+  font-weight: 400;
 }
 
 
