@@ -1,14 +1,55 @@
 body {
   margin: 0;
-  font-style: 14px;
-  font-family: 'Cardo', serif;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
   font-family: 'Raleway', sans-serif;
   color: #6c7279;
+  background-color: #000;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+
+/* Conteiner
+=====================*/
+
+.conteiner {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1170px;
+}
+
+
+/* Header
+=====================*/
+
+.header {}
+
+.header_inner {
+  padding: 35px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #515369;
+}
+
+
+/* Nav
+=====================*/
+
+.nav {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav_link:hover {
+  text-decoration: underline;
 }
