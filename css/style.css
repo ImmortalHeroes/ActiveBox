@@ -92,7 +92,7 @@ p{
   background: #31344e url("../img/intro-bg.jpg") center no-repeat; background-size: cover;
 }
 
-.intro_inner{
+.intro_inner {
   width: 100%;
   max-width: 970px;
   margin: 0 auto;
@@ -101,7 +101,7 @@ p{
 .intro_title{
   margin: 0 0 30px;
 
-  font-family: font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 65px;
   line-height: 1.1;
   color: #fff;
@@ -110,7 +110,7 @@ p{
 
 }
 
-.intro_subtitle{
+.intro_subtitle {
   margin-bottom: 60px;
   font-size: 22px;
   color: #fff;
@@ -120,7 +120,7 @@ p{
 
 /* Btn
 =====================*/
-.btn{
+.btn {
   display: inline-block;
   vertical-align: top;
   padding: 15px 50px;
@@ -139,32 +139,32 @@ p{
 
 }
 
-.btn--red{
+.btn--red {
   background-color: #e84545;
 }
 
-.btn--red:hover{
+.btn--red:hover {
   background-color: #dd3434;
 }
 
 /* Feature
 =====================*/
-.feature{
+.feature {
   display: flex;
   flex-wrap: wrap;
-  margin: 100px 0px;
+  margin: 95px 0;
 
 }
 
-.feature_item{
+.feature_item {
+  margin: 25px 0;
   width: 33.33333%;
-  padding: 40px;
+  padding: 0 40px;
+
   text-align: center;
-
-
 }
 
-.feature_icon{
+.feature_icon {
   margin-bottom: 25px;
 }
 
@@ -177,25 +177,89 @@ p{
   text-transform: uppercase;
 }
 
-.feature_text{
+.feature_text {
   font-size: 14px;
   line-height: 1.5;
   color: #6c7279;
 
 }
 
+/* Works
+=====================*/
+.works {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.works_item {
+  width: 25%;
+  height: 350px;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
 
+.works_item:hover .works_content {
+  opacity: 1;
+}
 
+.works_photo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate3d(-50%, -50%, 0);
+}
 
+.works_content {
+  display: flex;
+  flex-direction: column;
 
+  justify-content: center;
+  text-align: center;
 
+  width: 100%;
+  height: 100%;
 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 
+  background-color: rgba(232, 69, 69, .9);
+  opacity: 0;
+  transition: opacity .2s linear;
+}
 
+.works_title {
+  margin-bottom: 5px;
 
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
 
+.works_text {
+  font-size: 14px;
+  color: #fff;
+}
 
+/* Team
+=====================*/
+.team {
+  margin: 100px 0;
+}
+
+.team_inner{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team_item{
+  width: 25%;
+}
 
 
 
