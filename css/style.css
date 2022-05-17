@@ -261,6 +261,39 @@ p{
   width: 25%;
 }
 
+.team_photo{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+
+}
+
+.team_name{
+  margin-bottom: 8px;
+
+  font-size: 22px;
+  color: #2d3033;
+
+}
+
+.team_prof{
+  margin-bottom: 15px;
+
+  font-size: 13px;
+  color: #e84545;
+  text-transform: uppercase;
+}
+
+.team_text{
+  font-size: 14px;
+  color: #6c7279;
+  line-height: 1.5;
+}
+
+
+
+
 
 
 
