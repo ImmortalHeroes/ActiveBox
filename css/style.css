@@ -330,14 +330,57 @@ p{
   transition: fill .1s linear;
 }
 
+/* Rewies
+=====================*/
+.rewies{
+  overflow: hidden;
+  background-color: #53354a;
+}
+.rewies_item{
+  display: flex;
+  flex-wrap: wrap;
 
+}
 
+.rewies_photo{
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
 
+.rewies_img{
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
 
+  transform: translateY(-50%);
+}
 
+.rewies_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
 
+  padding-left: 80px;
+}
 
+.rewies_text{
+  margin-bottom: 30px;
+  font-family: 'Cardo', sans-serif;
+  font-style: italic;
+  font-size: 36px;
+  line-height: 1.2;
+  color: #fff;
+}
 
+.rewies_autor{
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
 
 
 
