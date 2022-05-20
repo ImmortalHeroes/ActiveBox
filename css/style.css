@@ -539,6 +539,14 @@ p{
 
 /* Media
 =====================*/
+
+@media (max-width: 1300px) {
+  /*Works*/
+  .works_item {
+    width: 50%;
+  }
+}
+
 @media (max-width: 991px) {
 
   /*Nav*/
@@ -554,25 +562,47 @@ p{
   .intro_title {
       font-size: 40px;
     }
+
+  /* Feature */
+
+  .feature_item {
+    width: 50%;
 }
+}
+
+
 
 @media (max-width: 767px){
 
   /* Intro */
-  .intro{
+  .intro {
     height: auto;
     padding-top: 130px;
     padding-bottom: 30px;
   }
 
-  .intro_title{
+  .intro_title {
     font-size: 30px;
   }
 
-  .intro_subtitle{
+  .intro_subtitle {
     font-size: 16px;
     margin-bottom: 30px;
   }
+
+  /* Feature */
+
+  .feature_item {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+  /*Works*/
+  .works_item {
+    width: 100%;
+  }
+
 }
 
 
