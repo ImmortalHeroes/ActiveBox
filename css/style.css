@@ -212,6 +212,7 @@ p{
 }
 
 .works_photo {
+  min-width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -569,8 +570,6 @@ p{
     width: 50%;
 }
 }
-
-
 
 @media (max-width: 767px){
 
